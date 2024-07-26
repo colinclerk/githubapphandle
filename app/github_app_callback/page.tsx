@@ -1,3 +1,5 @@
+"use client";
+
 import { useClerk, useSignIn, useUser } from "@clerk/nextjs";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
